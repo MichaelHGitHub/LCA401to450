@@ -1,5 +1,15 @@
 #include "header.h"
 
+//Find out all the hours each number(0 - 4) of LEDs can reprent.
+//Find out all minutes each number(0 - 6) of LEDs can reprent.
+//When the number of hour LEDs if h_num, the number of min LEDs is turnedOn - h_num.
+//Save the hours mapping in vector<vecotr>, say h_map;
+//Save the minutes mapping in vector<vector>, say m_map;
+//
+//Index of h_mapand m_map represents the number of LEDs.
+//h_map[i] contains all the hours that can be represented by i LEDs.
+//m_map[j] contains all the minutes that can be represented by j LEDs.
+
 vector<string> readBinaryWatch(int turnedOn) {
     vector<string> result;
     vector<int> hour_leds({ 1, 2, 4, 8 });
