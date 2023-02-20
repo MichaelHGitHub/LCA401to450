@@ -5,6 +5,8 @@ VisualStudioVersion = 17.4.33205.214
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "401_Binary_Watch", "401_Binary_Watch\401_Binary_Watch.vcxproj", "{1ED2E25E-4C59-4347-A25F-CF3004A1CE14}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "402_Remove_K_Digits", "402_Remove_K_Digits\402_Remove_K_Digits.vcxproj", "{EC902643-E268-4143-9397-D3B948C31853}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -21,6 +23,14 @@ Global
 		{1ED2E25E-4C59-4347-A25F-CF3004A1CE14}.Release|x64.Build.0 = Release|x64
 		{1ED2E25E-4C59-4347-A25F-CF3004A1CE14}.Release|x86.ActiveCfg = Release|Win32
 		{1ED2E25E-4C59-4347-A25F-CF3004A1CE14}.Release|x86.Build.0 = Release|Win32
+		{EC902643-E268-4143-9397-D3B948C31853}.Debug|x64.ActiveCfg = Debug|x64
+		{EC902643-E268-4143-9397-D3B948C31853}.Debug|x64.Build.0 = Debug|x64
+		{EC902643-E268-4143-9397-D3B948C31853}.Debug|x86.ActiveCfg = Debug|Win32
+		{EC902643-E268-4143-9397-D3B948C31853}.Debug|x86.Build.0 = Debug|Win32
+		{EC902643-E268-4143-9397-D3B948C31853}.Release|x64.ActiveCfg = Release|x64
+		{EC902643-E268-4143-9397-D3B948C31853}.Release|x64.Build.0 = Release|x64
+		{EC902643-E268-4143-9397-D3B948C31853}.Release|x86.ActiveCfg = Release|Win32
+		{EC902643-E268-4143-9397-D3B948C31853}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
