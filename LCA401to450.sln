@@ -7,6 +7,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "401_Binary_Watch", "401_Bin
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "402_Remove_K_Digits", "402_Remove_K_Digits\402_Remove_K_Digits.vcxproj", "{EC902643-E268-4143-9397-D3B948C31853}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "404_Sum_of_Left_Leaves", "404_Sum_of_Left_Leaves\404_Sum_of_Left_Leaves.vcxproj", "{8FDF79E6-1B8F-4782-9AB7-5AB447D4E1EA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -31,6 +33,14 @@ Global
 		{EC902643-E268-4143-9397-D3B948C31853}.Release|x64.Build.0 = Release|x64
 		{EC902643-E268-4143-9397-D3B948C31853}.Release|x86.ActiveCfg = Release|Win32
 		{EC902643-E268-4143-9397-D3B948C31853}.Release|x86.Build.0 = Release|Win32
+		{8FDF79E6-1B8F-4782-9AB7-5AB447D4E1EA}.Debug|x64.ActiveCfg = Debug|x64
+		{8FDF79E6-1B8F-4782-9AB7-5AB447D4E1EA}.Debug|x64.Build.0 = Debug|x64
+		{8FDF79E6-1B8F-4782-9AB7-5AB447D4E1EA}.Debug|x86.ActiveCfg = Debug|Win32
+		{8FDF79E6-1B8F-4782-9AB7-5AB447D4E1EA}.Debug|x86.Build.0 = Debug|Win32
+		{8FDF79E6-1B8F-4782-9AB7-5AB447D4E1EA}.Release|x64.ActiveCfg = Release|x64
+		{8FDF79E6-1B8F-4782-9AB7-5AB447D4E1EA}.Release|x64.Build.0 = Release|x64
+		{8FDF79E6-1B8F-4782-9AB7-5AB447D4E1EA}.Release|x86.ActiveCfg = Release|Win32
+		{8FDF79E6-1B8F-4782-9AB7-5AB447D4E1EA}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
