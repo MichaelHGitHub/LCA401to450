@@ -11,6 +11,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "404_Sum_of_Left_Leaves", "4
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "405_Decimal_to_Hexa", "405_Decimal_to_Hexa\405_Decimal_to_Hexa.vcxproj", "{89D7BCCD-25FA-499A-B493-D7050095B49A}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "406_Queue_rebuilt_by_Height", "406_Queue_rebuilt_by_Height\406_Queue_rebuilt_by_Height.vcxproj", "{340E2AEB-757E-43D4-B64E-CBF9C2C4D0DD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -51,6 +53,14 @@ Global
 		{89D7BCCD-25FA-499A-B493-D7050095B49A}.Release|x64.Build.0 = Release|x64
 		{89D7BCCD-25FA-499A-B493-D7050095B49A}.Release|x86.ActiveCfg = Release|Win32
 		{89D7BCCD-25FA-499A-B493-D7050095B49A}.Release|x86.Build.0 = Release|Win32
+		{340E2AEB-757E-43D4-B64E-CBF9C2C4D0DD}.Debug|x64.ActiveCfg = Debug|x64
+		{340E2AEB-757E-43D4-B64E-CBF9C2C4D0DD}.Debug|x64.Build.0 = Debug|x64
+		{340E2AEB-757E-43D4-B64E-CBF9C2C4D0DD}.Debug|x86.ActiveCfg = Debug|Win32
+		{340E2AEB-757E-43D4-B64E-CBF9C2C4D0DD}.Debug|x86.Build.0 = Debug|Win32
+		{340E2AEB-757E-43D4-B64E-CBF9C2C4D0DD}.Release|x64.ActiveCfg = Release|x64
+		{340E2AEB-757E-43D4-B64E-CBF9C2C4D0DD}.Release|x64.Build.0 = Release|x64
+		{340E2AEB-757E-43D4-B64E-CBF9C2C4D0DD}.Release|x86.ActiveCfg = Release|Win32
+		{340E2AEB-757E-43D4-B64E-CBF9C2C4D0DD}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
