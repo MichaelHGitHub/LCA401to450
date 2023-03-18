@@ -19,6 +19,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "412_Fizz_Buzz", "412_Fizz_B
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "413_Arithmetic_Slices", "413_Arithmetic_Slices\413_Arithmetic_Slices.vcxproj", "{79F767A9-8792-40FB-91AC-1BABDE4DD78C}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "414_3rd_Max_Number", "414_3rd_Max_Number\414_3rd_Max_Number.vcxproj", "{68EAF49C-17A9-4BA2-BEB4-C2D4EAE7EE8E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -91,6 +93,14 @@ Global
 		{79F767A9-8792-40FB-91AC-1BABDE4DD78C}.Release|x64.Build.0 = Release|x64
 		{79F767A9-8792-40FB-91AC-1BABDE4DD78C}.Release|x86.ActiveCfg = Release|Win32
 		{79F767A9-8792-40FB-91AC-1BABDE4DD78C}.Release|x86.Build.0 = Release|Win32
+		{68EAF49C-17A9-4BA2-BEB4-C2D4EAE7EE8E}.Debug|x64.ActiveCfg = Debug|x64
+		{68EAF49C-17A9-4BA2-BEB4-C2D4EAE7EE8E}.Debug|x64.Build.0 = Debug|x64
+		{68EAF49C-17A9-4BA2-BEB4-C2D4EAE7EE8E}.Debug|x86.ActiveCfg = Debug|Win32
+		{68EAF49C-17A9-4BA2-BEB4-C2D4EAE7EE8E}.Debug|x86.Build.0 = Debug|Win32
+		{68EAF49C-17A9-4BA2-BEB4-C2D4EAE7EE8E}.Release|x64.ActiveCfg = Release|x64
+		{68EAF49C-17A9-4BA2-BEB4-C2D4EAE7EE8E}.Release|x64.Build.0 = Release|x64
+		{68EAF49C-17A9-4BA2-BEB4-C2D4EAE7EE8E}.Release|x86.ActiveCfg = Release|Win32
+		{68EAF49C-17A9-4BA2-BEB4-C2D4EAE7EE8E}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
