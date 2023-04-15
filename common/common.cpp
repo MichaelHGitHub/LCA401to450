@@ -1781,33 +1781,6 @@ void CheckResults(TD_VVC_B testData, bool result)
     std::cout << endl;
 }
 
-void PrintInput(TD_VVC_I testData)
-{
-    std::cout << "Input :";
-    PrintData(testData.input);
-    std::wcout << endl;
-}
-void CheckResults(TD_VVC_I testData, int result)
-{
-    std::cout << "Output: ";
-    PrintData(result);
-    cout << endl;
-
-    if (testData.output == result)
-    {
-        std::cout << "Succeeded!" << endl;
-    }
-    else
-    {
-        std::cout << "***Failed!***" << endl;
-        std::cout << "Expect: ";
-        PrintData(testData.output);
-        std::cout << endl;
-    }
-
-    std::cout << endl;
-}
-
 void PrintInput(TD_VVC_S_B testData)
 {
     std::cout << "Input :";
@@ -1978,6 +1951,32 @@ void PrintInput(TD_VVI_I testData)
 }
 void CheckResults(TD_VVI_I testData, int result)
 {
+    std::cout << "Output :";
+    PrintData(result);
+    std::cout << endl;
+
+    if (testData.output == result)
+    {
+        std::cout << "Succeeded!" << endl;
+    }
+    else
+    {
+        std::cout << "***Failed!***" << endl;
+        std::cout << "Expect :";
+        PrintData(testData.output);
+        std::cout << endl;
+    }
+
+    std::cout << endl;
+}
+
+void PrintInput(TD_VVC_I testData) {
+    std::cout << "Input :";
+    PrintData(testData.input);
+    std::cout << endl;
+}
+
+void CheckResults(TD_VVC_I testData, int result) {
     std::cout << "Output :";
     PrintData(result);
     std::cout << endl;
